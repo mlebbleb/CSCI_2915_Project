@@ -33,3 +33,17 @@ Removing "Makefile" from the list of heden files assigned to hidden will allow f
 makefile when hidden files are hidden. This will make it easier for students to see and make
 changes to the makefile if neccessary potentialy allowing them to get a better idea of how the
 build system is working. 
+
+    Before Changes:
+
+        compile = ["make", "-s"]
+        run = "./main"
+        entrypoint = "main.cpp"
+        hidden = ["main", "**/*.o", ".ccls-cache", "Makefile"]
+
+    After Changes:
+
+        compile = ["make"]
+        run = "./<bin_dir_name>/main"
+        entrypoint = "main.cpp"
+        hidden = ["main", "**/*.o", ".ccls-cache"]

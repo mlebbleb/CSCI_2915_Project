@@ -10,14 +10,14 @@ operating systems is included header
 Windows
     MSVC:
         download visual studio comunity and configure for C/C++ suport via the linked Instructions
-        Instructions: https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170&viewFallbackFrom=vs-2019
+        Instructions: https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170&viewFallbackFrom=vs-2019 [1]
         
         To use in comand line, find LaunchDevCmd in the C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools file path.
         Create a desctop shortcut for this file -- this will allow you to use the comand termainal to compile and link programs using 
         MSVC in the termainal.
 
     gcc/g++: 
-        download Msys2 (Instructions Hear:https://www.msys2.org/)
+        download Msys2 (Instructions Hear:https://www.msys2.org/) [6]
         Install GCC with the pacagemanager using the comand:
             pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 
@@ -31,11 +31,11 @@ Windows
 
 Linux
     gcc/g++:
-        download gcc using your distro's pacage manager
+        download gcc using your distro's pacage manager [2]
         Ubuntu Instructions: https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/
 
     clang/clang++:
-        download clang using your distro's pacage manager
+        download clang using your distro's pacage manager [3]
         Ubuntu Instructions: https://www.addictivetips.com/ubuntu-linux-tips/clang-on-ubuntu/
 
 

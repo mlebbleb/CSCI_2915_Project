@@ -4,15 +4,15 @@ This file describes the compiler syntax for the gcc/g++ compiler. Other compiler
 will usualy use a similar if not identical structure to that of gcc/g++.
 
 Basic gcc syntax:
-$ gcc [options] [source files] [object files] [-o output file]
-
+$ gcc [options] [source files] [object files] -o [output file]
+    
     note: use g++ when compiling c++
 Common options
 
 -c          | compile to an object file but does not link them
--g<level>   | generates debuging information to be used by gdb (specifying a level is not required)
+-g<level>   | generates debuging information to be used by gdb (specifying a level is not required) [4]
 -Wall       | turns on the majority of compiler warnings
--Wextra     | turns on extra compiler warnings
+-Wextra     | turns on extra compiler warnings [4]
 -o          | used to specify the name of the designated file
 -I<dir>     | use the directory named in the <dir> location when looking for header files
 
@@ -47,5 +47,5 @@ Example:
 
     
 
-For more information and for a program that generates a compiler comand, visiit
+For more information and for a program that generates a compiler comand, visit
 this link: https://www.rapidtables.com/code/linux/gcc.html#syntax
