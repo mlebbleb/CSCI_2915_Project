@@ -1,0 +1,21 @@
+Sources Cited
+
+ 1. Corob-Msft. (n.d.). Install C and C++ support in Visual studio. Microsoft Docs.
+        Retrieved March 3, 2022, from https://docs.microsoft.com/en-us/cpp/build/vscpp
+        -step-0-installation?view=msvc-170&amp;viewFallbackFrom=vs-2019 
+
+ 2. Diener, D. (2019, October 31). How to install GCC compiler on ubuntu 18.04.
+        Linuxize. Retrieved March 3, 2022, from https://linuxize.com/post/how-to
+        -install-gcc-compiler-on-ubuntu-18-04/ 
+
+ 3. Diener, D. (n.d.). How to install clang on Ubuntu. AddictiveTips. Retrieved March
+        3, 2022, from https://www.addictivetips.com/ubuntu-linux-tips/clang-on-ubuntu/ 
+
+ 4. GCC C compiler. RapidTables. (n.d.). Retrieved March 3, 2022, from
+        https://www.rapidtables.com/code/linux/gcc.html 
+
+ 5. Linuxize. (2019, October 31). How to install GCC compiler on ubuntu 18.04.
+        Linuxize. Retrieved March 3, 2022, from https://linuxize.com/post/how-to-
+        install-gcc-compiler-on-ubuntu-18-04/ 
+
+ 6. MSYS2. (n.d.). Retrieved March 3, 2022, from https://www.msys2.org/ 
