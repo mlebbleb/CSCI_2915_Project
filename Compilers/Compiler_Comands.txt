@@ -1,0 +1,51 @@
+
+
+This file describes the compiler syntax for the gcc/g++ compiler. Other compilers
+will usualy use a similar if not identical structure to that of gcc/g++.
+
+Basic gcc syntax:
+$ gcc [options] [source files] [object files] [-o output file]
+
+    note: use g++ when compiling c++
+Common options
+
+-c          | compile to an object file but does not link them
+-g<level>   | generates debuging information to be used by gdb (specifying a level is not required)
+-Wall       | turns on the majority of compiler warnings
+-Wextra     | turns on extra compiler warnings
+-o          | used to specify the name of the designated file
+-I<dir>     | use the directory named in the <dir> location when looking for header files
+
+Example:
+
+    Source Files:
+        fileOne.c, fileTwo.c
+
+    Desired Output File:
+        main
+
+    Comamands:
+        gcc -g -Wall -c fileOne.c -o fileOne.o
+        gcc -g -Wall -c fileTwo.c -o fileTwo.o
+        gcc -g -Wall fileOne.o fileTwo.o -o main
+
+    Explanation:
+        The first two comands are used to compile fileOne.c and fileTwo.c information
+        object files. While this is an optional step, this allows for less time to be
+        taken re-compiling in the future if only one of the files is changed.
+
+        The third comand links the files into an exicutable (main). this file can then
+        be run in the terminal by using the camand ./main on MacOS and Linux or .\main
+        on Windows (note the .exe file extension is commonly used on Windows for
+        executable files)
+
+        In all cases, the compiler flags -g -Wall are used. These flags turn on debuging
+        information and compiler warnings.  The first is usefull if gdb is going to
+        be used and the later should always be used as it will provide usefull information
+        about possible issues with your program that have not caused explicit errors in
+        compilation
+
+    
+
+For more information and for a program that generates a compiler comand, visiit
+this link: https://www.rapidtables.com/code/linux/gcc.html#syntax

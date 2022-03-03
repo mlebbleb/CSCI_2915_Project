@@ -1,0 +1,50 @@
+***********************************************************************************************
+
+Replit is the primary text editor we will be using in this course. It has great suport for 
+colaborative programing and, as it browser based, does not require the students to install
+any software on there divice. 
+
+While Replit is very useful, it has some issues that will need to be worked around in class.
+These issues will be addressed here in adition to some other helpful tweaks and informatoin
+that can make the students experiance with the software easier.
+
+***********************************************************************************************
+
+Using Replit
+
+    Access:
+        Replit can be accessed by going to https://replit.com
+        
+        The students should be able to log in using there University email acount.
+
+    Creating a Team:
+        Once the students have loged into there acounts, have the students create a new team.
+        This will create an area for the students to creat a set of shared Repls, which the
+        students will be able to easily access without having to invite each other for each new
+        Repl created.
+
+        To do this, access the menu on the left-hand side of the screen; If the menue is not
+        visable, click the three bars in the top left corner and it should appear. Click on the
+        menue item labled "Teams". Once in the teams page, scroll down to the bottom of the
+        screen to the "Friends" section and click on the "New team in Friends" button. Fill in
+        the team name and the team user name. After the team is created add each member of the
+        group to the team using each others usernames or emails.
+
+    Creating a Team Repl:
+        Repls are the individual code environments the students will be writing there programs
+        in.
+
+        In order to create a Team Repl, enter the team you want to create the team repl in and
+        click on "Create Team Repl" select the desired language (C++) and give the Repl a name 
+        and click on "Create Repl".
+
+        Once the Repl is complete, you can write your code in the main file, or you can create
+        other files to write your code in.
+
+    Accessing Configurations and Build System:
+        In order to access the repl's configurations and build system, click on "Show Hidden Files"
+        in the dropdown menu (accessed by clicking on the three vertical dots) This will show the
+        repl's Makefile and configuration files (the .replit file).
+
+        More information on modifing the configurations and build system can be found in
+        Configurations_and_Buildsystem.txt

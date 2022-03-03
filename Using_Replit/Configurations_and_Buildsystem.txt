@@ -1,0 +1,35 @@
+***********************************************************************************************
+
+Build System Changes:
+
+In its defualt state, the replit make file is setup to compile every .cpp file into one exicutable
+named main. This can cause issues when the students create multiple files containing a main
+function. 
+
+This can be solved by modifying the Makefile of the replit to only compile the files in a certian
+directory and only placing the desired files in the source directory. This can be acomplished using
+the Makefile provided in the bild systems directory of this repository.
+
+***********************************************************************************************
+
+Configuration Changes
+
+Build System:
+
+When the Makefile is changed in order to improve the build system, the configurations should
+be changed to allow the repl's run button to function as the students would expect.This can be
+acomplished by changing the run variable to include the path to the main binary, changing the 
+variable from "./main" to "./<dir_name>/main". 
+
+Other Changes:
+
+Removing the -s flag from the list of comands assigned to the compile variable will cause the
+individual compiler comands produced by the makefile to be displayed in the terminal when the run
+button is pressed.  This will help the students see the actions the compiler is taking when the
+code is copiled, potentialy helping them get a better understanding of the process of using the
+compiler.
+
+Removing "Makefile" from the list of heden files assigned to hidden will allow for access to the
+makefile when hidden files are hidden. This will make it easier for students to see and make
+changes to the makefile if neccessary potentialy allowing them to get a better idea of how the
+build system is working. 

@@ -1,0 +1,66 @@
+
+
+IDEs and text editors are the programs used to write and, depending on the software, run your
+code.  Bellow I have included some options for students I believe to be of merit or particularly
+useful for this course.
+
+***********************************************************************************************
+VSCode
+
+VSCode is a free light-weight IDE made by Microsoft that suports a variety of languages and offers
+a variety of official and user created plugins which allow for a widerange of features.
+
+Benifits:
+    light-weight
+    versatile
+    wide suport for languages via plugins
+    plugins provide lots of features
+    built in integrated terimal
+
+Drawback:
+    C/C++ require a plugin for use (very minor)
+
+***********************************************************************************************
+Atom
+
+Atom is a free text editor made by Github that suports a variety of languages and offers
+a variety of official and user created plugins which allow for a widerange of features.
+
+Benifits:
+    light-weight
+    versatile
+    wide suport for languages
+    plugins provide additional features
+    integrated Github suport
+
+Drawbacks:
+    requires plugins for integrated terminal (minor)
+
+************************************************************************************************
+Replit
+
+Replit is a browser based IDE that suports a wide variety of languages.
+
+This will be the IDE used during class primarily due to its exelemt suport for multiple programes
+working on the same file at the same time.
+
+Benifits:
+    Easy Colaboration
+    Use on multiple divises
+    has an integrated terminal
+
+Drawbacks:
+    less features than other options
+    mild bugs related to error highlighting
+    potential issues with server conection
+
+
+
+************************************************************************************************
+My Preferances:
+
+I personaly use VSCode for the majority of my programing in C/C++. In my opinion it provides
+and easy to use, estheticaly pleasing, and very costomizable environment. In addition, the vast 
+amount of plugins provide the program with a lot of versatility and functionality.  Atom can
+provide all these things as well and really, my preferance for VScode comes as it was the program
+I used first and have had the most time to costomize to my liking. 

@@ -1,0 +1,73 @@
+
+What is Make?
+
+    Make is a popular build system for C/C++ however it can be used with any language
+    with a compiler that can be used from the terminal.
+
+
+Why should I use Make?
+
+    Make can be used to automate tedious tasks such as typing out compiler camands
+    every time the user wishes to compile code. While Make is not required for this 
+    course, it is useful for avoiding isues caused with typos in compiler comands.
+
+
+    Example:
+
+        To illustrate the effectiveness of make in reducing the amount of typing required
+        to build a program, I have included an example of the compilation comands for a 
+        c++ program containing three classes defined in external files using just the
+        comand line followed by the comands using make.
+
+        Compiler Comands w/o Make:
+
+            g++ -g -Wall -IheaderDir -c fileOne.cpp -o fileOne.o
+            g++ -g -Wall -IheaderDir -c fileTwo.cpp -o fileTwo.o
+            g++ -g -Wall -IheaderDir -c fileThree.cpp -o fileThree.o
+            g++ -g -Wall -IheaderDir -c main.cpp -o main.o
+            g++ -g -Wall fileOne.o fileTwo.o fileThree.o main.o -o main
+
+        Compiler Comands w/ Make
+            make 
+
+
+
+Making a basic makefile
+
+    Step 1:
+        Create a file with no file extension with the name makefile or makefile in the
+        directory with the files you wish to compile.
+
+    Step 2:
+        Inside the makefile, include create a rule to compile your code. A rule is a set of
+        commands that a makefile will exicute when the make camand is given followed by the name of
+        the rule: ex. make all.  If no rule is given, the make uses the first rule defined.
+
+        Rules take the format:
+
+            target: prerequisites
+                comands
+                ...
+
+            note: in the makefile use a tab, not 4 spaces. If four spaces are used an error will
+                  occur.
+
+        Example Rule for the Example comands above
+
+            all:
+                g++ -g -Wall -IheaderDir -c fileOne.cpp -o fileOne.o
+                g++ -g -Wall -IheaderDir -c fileTwo.cpp -o fileTwo.o
+                g++ -g -Wall -IheaderDir -c fileThree.cpp -o fileThree.o
+                g++ -g -Wall -IheaderDir -c main.cpp -o main.o
+                g++ -g -Wall fileOne.o fileTwo.o fileThree.o main.o -o main
+
+    Step 3:
+        Open the directory in the terminal and type make. The rule you have defined should run
+        compiling your code. 
+
+More Examples and Information:
+    An example makefile is included in this folder. More information reguarding it can be found in the
+    opening comment of the file.
+
+    For more information about make, check out these videos on youtube:
+    https://www.youtube.com/playlist?list=PL9IEJIKnBJjEPxenuhKU7J5smY4XjFnyg
